@@ -8,6 +8,6 @@ resource "aws_instance" "myFirstInstance" {
   key_name = "malli-dev"
   instance_type = "t2.micro"
   tags= {
-    Name = var.tag_name
+    Name = Test server
   }
 }
